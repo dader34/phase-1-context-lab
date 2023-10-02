@@ -150,6 +150,7 @@ describe("The payroll system", function () {
         expect(hoursWorkedOnDate.call(cRecord, "2044-03-15")).to.equal(2)
       })
     })
+    
   })
 
   describe("Given an employee record with a date-matched timeInEvent and timeOutEvent", function () {
